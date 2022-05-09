@@ -18,3 +18,7 @@ class User(db.Model):
 
     def __repr__(self):
         return f"<User: {self.name}>"
+
+@app.route("/")
+def hello():
+    return "Hello world"
