@@ -21,4 +21,4 @@ class User(db.Model):
 
 @app.route("/")
 def hello():
-    return "Hello world"
+    return "Hello world from tim"
