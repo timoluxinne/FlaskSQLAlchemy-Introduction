@@ -21,8 +21,12 @@ class User(db.Model):
 
 @app.route("/")
 def hello():
+<<<<<<< HEAD
     return "Hello world"
 
 @app.route("/about")
 def about():
     return "This is about page"
+=======
+    return "Hello world from tim"
+>>>>>>> main
