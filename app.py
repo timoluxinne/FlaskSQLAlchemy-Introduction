@@ -19,14 +19,18 @@ class User(db.Model):
     def __repr__(self):
         return f"<User: {self.name}>"
 
+u1 = User()
+u1.id=1
+u1.name='tim'
+u1.email='tim@gmail.com'
+u1.date_joined=datetime.now()
+
+
+
 @app.route("/")
 def hello():
-<<<<<<< HEAD
-    return "Hello world"
+    return f"Hello world {u1}"
 
 @app.route("/about")
 def about():
     return "This is about page"
-=======
-    return "Hello world from tim"
->>>>>>> main
