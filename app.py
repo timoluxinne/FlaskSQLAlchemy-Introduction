@@ -34,3 +34,7 @@ def hello():
 @app.route("/about")
 def about():
     return "This is about page"
+
+
+if __name__ == "__main__":
+    app.run(debug=True)
